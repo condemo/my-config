@@ -6,7 +6,11 @@ return {
     require("neorg").setup({
       load = {
         ["core.defaults"] = {}, -- Loads default behaviour
-        ["core.concealer"] = {},
+        ["core.concealer"] = {
+          config = {
+            icon_preset = "diamond",
+          },
+        },
         ["core.dirman"] = { -- Manages Neorg workspaces
           config = {
             workspaces = {

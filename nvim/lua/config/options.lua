@@ -11,4 +11,6 @@ opt.colorcolumn = "100"
 opt.hlsearch = false
 opt.incsearch = true
 
+opt.foldlevelstart = 99
+
 vim.g.python3_host_prog = "/usr/bin/python3"
