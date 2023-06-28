@@ -25,5 +25,13 @@ vim.keymap.set(
   "n",
   "<leader>oi",
   "<cmd>Neorg index<cr>",
-  { noremap = true, silent = true, desc = "Go to neorg index in current workspace" }
+  { noremap = true, silent = true, desc = "Go to Neorg index in current workspace" }
 )
+
+-- Customization
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
+vim.keymap.set("n", "<leader>p", '"_dP', { desc = "Paste without losing current buffer" })
+vim.keymap.set("n", "<leader>y", '"+y', { desc = "Copy to clipborad" })
+vim.keymap.set("v", "<leader>y", '"+y', { desc = "Copy to clipborad, visual mode" })
+vim.keymap.set("n", "<leader>Y", '"+Y', { desc = "Copy to clipborad" })

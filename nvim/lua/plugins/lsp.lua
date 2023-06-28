@@ -61,6 +61,21 @@ return {
             },
           },
         },
+        pylsp = {
+          settings = {
+            pylsp = {
+              plugins = {
+                rope_autoimport = {
+                  enabled = true,
+                },
+                pycodestyle = {
+                  ignore = { "E128", "E126", "E123" },
+                  maxLineLength = 100,
+                },
+              },
+            },
+          },
+        },
       },
       -- you can do any additional lsp server setup here
       -- return true if you don't want this server to be setup with lspconfig
