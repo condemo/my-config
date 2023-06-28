@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=system76-power profile battery
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[es_ES]=Battery Save Profile
+Name=Battery Save Profile
+Comment[es_ES]=
+Comment=
