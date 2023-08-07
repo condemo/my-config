@@ -66,7 +66,7 @@ return {
             pylsp = {
               plugins = {
                 rope_autoimport = {
-                  enabled = true,
+                  -- enabled = true,
                 },
                 pycodestyle = {
                   ignore = { "E128", "E126", "E123" },
