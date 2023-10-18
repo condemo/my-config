@@ -8,12 +8,11 @@ return {
       ensure_installed = {
         "stylua",
         "shfmt",
-        "gopls",
         "json-lsp",
         "lua-language-server",
         "python-lsp-server",
         "shellcheck",
-        "deno",
+        "docker-compose-language-service",
       },
     },
     ---@param opts MasonSettings | {ensure_installed: string[]}
