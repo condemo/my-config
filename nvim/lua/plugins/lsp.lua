@@ -68,6 +68,9 @@ return {
             autopep8 = {
               enabled = false,
             },
+            yapf = {
+              enabled = true,
+            },
           },
         },
       },
