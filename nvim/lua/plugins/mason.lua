@@ -13,6 +13,8 @@ return {
         "python-lsp-server",
         "shellcheck",
         "docker-compose-language-service",
+        "gopls",
+        -- "typescript-language-server",
       },
     },
     ---@param opts MasonSettings | {ensure_installed: string[]}
