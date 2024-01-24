@@ -6,7 +6,7 @@ local opt = vim.opt
 opt.scrolloff = 8
 opt.termguicolors = true
 opt.swapfile = false
-opt.colorcolumn = "80"
+opt.colorcolumn = "90"
 
 opt.hlsearch = false
 opt.incsearch = true

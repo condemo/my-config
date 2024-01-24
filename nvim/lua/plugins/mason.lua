@@ -14,6 +14,8 @@ return {
         "shellcheck",
         "docker-compose-language-service",
         "gopls",
+        "html-lsp",
+        "templ",
         -- "typescript-language-server",
       },
     },
