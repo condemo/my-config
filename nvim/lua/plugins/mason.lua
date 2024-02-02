@@ -16,6 +16,7 @@ return {
         "gopls",
         "html-lsp",
         "templ",
+        "tailwindcss-language-server",
         -- "typescript-language-server",
       },
     },
