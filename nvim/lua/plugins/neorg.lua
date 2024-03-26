@@ -13,6 +13,7 @@ return {
         },
         ["core.dirman"] = { -- Manages Neorg workspaces
           config = {
+            default_keybinds = true,
             workspaces = {
               notes = "~/Dropbox/notes/home",
               work = "~/Dropbox/notes/work",
