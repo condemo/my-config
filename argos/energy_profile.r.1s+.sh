@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 power_profile=$(system76-power profile | sed -n 1p)
+output_text=$(echo $power_profile | sed 's/Power Profile://')
 
-echo "$power_profile"
+echo "$output_text"
 echo "---"
 echo "Battery | bash='system76-power profile battery' terminal=false"
 echo "Balanced | bash='system76-power profile balanced' terminal=false"
