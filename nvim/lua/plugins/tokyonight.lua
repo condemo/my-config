@@ -5,6 +5,7 @@ return {
     priority = 1000,
     opts = {
       transparent = false,
+      style = "night",
     },
   },
 }
