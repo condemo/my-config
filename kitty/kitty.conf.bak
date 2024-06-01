@@ -1,23 +1,23 @@
 # FONTS
-font_family JetBrainsMono Nerd Font
+font_family JetBrainsMonoNL NF
 bold_font auto
 italic_font auto
 bold_italic_font auto
 
-font_size 13
+font_size 15.2
 
 # URL
 open_url_with vivaldi
 
 # COLORSCHEME
 # background #262626
-background_opacity 0.93
+# background_opacity 0.93
 
 # TAB_BAR
 tab_bar_style powerline
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night
+# Tokyo Night Moon
 include current-theme.conf
 # END_KITTY_THEME
