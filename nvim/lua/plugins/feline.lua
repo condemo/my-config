@@ -77,5 +77,6 @@ return {
     "freddiehaddad/feline.nvim",
     event = "VeryLazy",
     opts = config,
+    enabled = false,
   },
 }
