@@ -18,6 +18,8 @@ return {
           config = {
             default_keybinds = true,
             workspaces = {
+              -- notes = "~/gdrive/DriveSyncFiles/notes/home",
+              -- work = "~/gdrive/DriveSyncFiles/notes/work",
               notes = "~/Dropbox/notes/home",
               work = "~/Dropbox/notes/work",
             },
