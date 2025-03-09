@@ -3,7 +3,7 @@ return {
     "nvim-neorg/neorg",
     dependencies = { "luarocks.nvim" },
     lazy = false,
-    version = "7.0.0",
+    version = "*",
     config = true,
     -- put any other flags you wanted to pass to lazy here!
     opts = {
@@ -18,8 +18,6 @@ return {
           config = {
             default_keybinds = true,
             workspaces = {
-              -- notes = "~/gdrive/DriveSyncFiles/notes/home",
-              -- work = "~/gdrive/DriveSyncFiles/notes/work",
               notes = "~/Dropbox/notes/home",
               work = "~/Dropbox/notes/work",
             },

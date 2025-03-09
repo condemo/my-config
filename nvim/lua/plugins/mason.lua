@@ -14,10 +14,10 @@ return {
         "shellcheck",
         "docker-compose-language-service",
         "gopls",
-        "html-lsp",
         "templ",
+        -- "emmet-ls",
         "tailwindcss-language-server",
-        -- "typescript-language-server",
+        "vue-language-server",
       },
     },
     ---@param opts MasonSettings | {ensure_installed: string[]}
